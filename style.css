@@ -1,0 +1,33 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+h2 {
+    color: #310744;
+}
+.card-size-normal .card {
+    width: 18rem; 
+}
+
+.card-size-small .card {
+    width: 12rem; 
+}
+
+#searchForm {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#backButton {
+    display: block;
+}
